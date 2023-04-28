@@ -1,0 +1,9 @@
+---
+
+- name: copy vimrc
+  copy:
+    src: vimrc
+    dest: /home/tom/.vimrc
+    owner: tom
+    group: tom
+    mode: '0644'
