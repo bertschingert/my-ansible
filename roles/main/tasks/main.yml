@@ -7,3 +7,9 @@
     owner: tom
     group: tom
     mode: '0644'
+
+- name: install packages
+  yum:
+    state: latest
+    name:
+      - wget
